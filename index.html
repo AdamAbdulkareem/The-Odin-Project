@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Library</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="card_details">
+    </div>
+        <dialog class="book_dialog">
+            <form id="book_dialog_form">
+                <label>Author: </label> <input type="text" id="author"> <br>
+                <label>Title: </label> <input type="text" id="title"> <br>
+                <label>Number of pages: </label> <input type="text" id="number_of_pages">
+
+                <menu>
+                    <button class="cancelBtn" value="cancel" formmethod="dialog">Cancel</button>
+                    <button class="submitBtn" value="submit">Submit</button>
+                </menu>
+            </form>
+        </dialog>
+        <button class="add_book" type="button">New Book</button>
+        <script src="script.js"></script>
+</body>
+
+</html>
